@@ -1,0 +1,30 @@
+/* src/index.css */
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --accent: #222;
+  --accent-light: #999;
+  --border-subtle: #e2e2e2;
+  --bg: #ffffff;
+  --text-main: #121212;
+  --text-muted: #666666;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text-main);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
