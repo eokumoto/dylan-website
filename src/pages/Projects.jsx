@@ -12,7 +12,7 @@ function Projects() {
             <article key={project.slug} className="project-tile">
               <Link to={`/projects/${project.slug}`}>
                 <div className="project-image-wrapper">
-                  <img src={project.image} alt={project.title} />
+                  <img src={project.coverImage} alt={project.title} />
                 </div>
                 <h2 className="project-title">{project.title}</h2>
                 <p className="project-location">{project.location}</p>
