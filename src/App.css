@@ -166,7 +166,7 @@
 .project-gallery {
   display: flex;
   flex-direction: column;
-  gap: 0.9rem;
+  gap: 1.1rem;
 }
 
 .project-main-image {
@@ -189,8 +189,10 @@
   display: flex;
   gap: 0.5rem;
   overflow-x: auto;
-  padding-bottom: 0.3rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem; /* padding all around so borders aren't cut */
   scroll-snap-type: x mandatory;
+  background: #fff;
+  border-radius: 6px; /* optional, just looks nice */
 }
 
 .project-thumbs-row::-webkit-scrollbar {
@@ -327,10 +329,72 @@
     padding-inline: 1rem;
   }
 
+  /* Hide normal nav links on mobile */
   .nav-links {
-    display: none; /* simple for now, later we can add a hamburger */
+    display: none;
+  }
+
+  /* Show hamburger on mobile */
+  .nav-menu-toggle {
+    display: inline-flex;
+  }
+
+  /* Show dropdown on mobile */
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 14px;
+    border: 1px solid var(--border-subtle);
+    background: #ffffff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+  }
+
+  .nav-links-mobile a {
+    color: var(--text-muted);
+  }
+
+  .nav-links-mobile a:hover {
+    color: var(--text-main);
   }
 }
+
+
+/* Hamburger button - hidden on desktop by default */
+.nav-menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: #fff;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-menu-toggle span {
+  display: block;
+  width: 16px;
+  height: 1.5px;
+  background: #222;
+  border-radius: 999px;
+}
+
+.nav-menu-toggle span + span {
+  margin-top: 4px;
+}
+
+/* Mobile dropdown menu */
+.nav-links-mobile {
+  display: none; /* default off; enabled in mobile media query */
+}
+
 
 /* ===== About section ===== */
 
