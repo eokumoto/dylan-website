@@ -63,6 +63,16 @@ function Home() {
           ))}
         </div>
       </section>
+
+      {/* GO TO ABOUT SECTION */}
+      <section className="go-to-about">
+        <div className="home-about-header">
+          <h2>About Me</h2>
+          <Link to="/about" className="about-me-link">
+            Learn more →
+          </Link>
+        </div>
+      </section>
     </>
   );
 }

@@ -12,7 +12,7 @@ function App() {
     <div className="site">
       <header className="nav">
         <Link to="/" className="nav-logo">
-          <span className="logo-text">DYLAN TAWATA</span>
+          <span className="logo-text">D.T.</span>
         </Link>
 
         <nav className="nav-links">
@@ -33,6 +33,11 @@ function App() {
       <footer className="footer">
         <p>
           © {new Date().getFullYear()} DYLAN TAWATA · Landscape Architecture
+        </p>
+          <p className="contact-footer">
+            <a href="mailto:dtawata@calpoly.edu">
+              dtawata@calpoly.edu
+            </a>
         </p>
       </footer>
     </div>

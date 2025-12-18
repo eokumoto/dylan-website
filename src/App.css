@@ -215,6 +215,18 @@
   color: var(--accent-light);
 }
 
+/* Contact footer email link thing */
+.contact-footer {
+  font-size: 0.75rem;
+  text-transform: lowercase;
+  letter-spacing: 0.12em;
+  color: var(--accent-light);
+}
+
+.contact-footer:hover {
+  text-decoration: underline;
+}
+
 /* Responsive tweaks */
 
 @media (max-width: 768px) {
@@ -226,6 +238,7 @@
     display: none; /* simple for now, later we can add a hamburger */
   }
 }
+
 /* ===== About section ===== */
 
 .about-section {

@@ -105,6 +105,38 @@
   color: var(--text-main);
 }
 
+/* 
+about me
+*/
+.about-me-link {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--text-muted);
+}
+
+.about-me-link:hover {
+  color: var(--text-main);
+}
+
+.go-to-about {
+  padding: 2.5rem 0 0;
+}
+
+.home-about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+
+.home-about-header h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+
 /* “Carousel” row (scrollable horizontally) */
 
 .home-projects-row {
