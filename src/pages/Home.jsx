@@ -55,7 +55,7 @@ function Home() {
               className="home-project-thumb"
             >
               <div className="home-project-image-wrapper">
-                <img src={project.image} alt={project.title} />
+                <img src={project.coverImage} alt={project.title} />
               </div>
               <h3>{project.title}</h3>
               <p>{project.location}</p>
