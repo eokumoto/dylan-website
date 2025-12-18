@@ -391,7 +391,7 @@
     flex-direction: column;
     gap: 0.6rem;
     position: absolute;
-    top: 3.5rem;          /* sits just under the navbar */
+    top: 4.3rem;          /* sits just under the navbar */
     right: 1.25rem;       /* aligned to the right side */
     padding: 0.75rem 1rem;
     border-radius: 14px;
@@ -401,7 +401,7 @@
     text-transform: uppercase;
     letter-spacing: 0.14em;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-    z-index: 15;
+    z-index: 9999; /* above all other content */
     min-width: 180px;
   }
 
