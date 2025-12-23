@@ -88,7 +88,7 @@
   height: 34px;
   border-radius: 999px;
   border: 1px solid var(--border-subtle);
-  background: #fff;
+  background: #e0e0e063;
   padding: 0;
   cursor: pointer;
 }
@@ -97,7 +97,7 @@
   display: block;
   width: 16px;
   height: 2px;
-  background: #222;
+  background: #000000;
   border-radius: 999px;
 }
 
@@ -407,17 +407,17 @@
     gap: 0.6rem;
     position: fixed ! important;
     top: 4.8rem;          /* sits just under the navbar */
-    right: 0.75rem ! important;       /* aligned to the right side */
+    right: 1rem ! important;       /* aligned to the right side */
     padding: 0.75rem 1rem;
-    border-radius: 14px;
-    border: 1px solid var(--border-subtle);
+    /* border-radius: 14px;
+    border: 1px solid var(--border-subtle); */
     background: #ffffff;
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.14em;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
     z-index: 9999; /* above all other content */
-    min-width: 180px;
+    min-width: 110px;
   }
 
   .nav-links-mobile a {
