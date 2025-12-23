@@ -36,7 +36,7 @@ function ProjectDetail() {
           ← All projects
         </Link>
 
-        <h1 className="page-title">{project.title}</h1>
+        <h1 className="project-title-big">{project.title}</h1>
         <p className="project-location-detail">{project.location}</p>
 
         <div className="project-detail-layout">

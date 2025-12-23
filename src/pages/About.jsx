@@ -13,10 +13,7 @@ function About() {
 
           <div className="about-text">
             <p>
-              Dylan Tawata is... [insert glaze here].
-            </p>
-            <p>
-              More glaze here.
+              Dylan Tawata is a landscape architecture student at California Polytechnic State University in San Luis Obispo. He's originally from Honolulu Hawaii and a high school graduate from Punahou School. In his free time, Dylan enjoys drawing, exploring nature, and spending time with his family, friends, and community.
             </p>
           </div>
         </div>

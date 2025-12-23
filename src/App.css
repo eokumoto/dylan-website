@@ -20,9 +20,9 @@
   align-items: center;
   padding: 0.6rem 1.1rem;
   margin-bottom: 1.5rem;
-  border-radius: 999px;
-  border: 1px solid var(--border-subtle);
-  background: rgba(255, 255, 255, 0.9);
+  /* border-radius: 999px;
+  border: 1px solid var(--border-subtle); */
+  background: rgba(231, 234, 231, 0.67);
   position: sticky;
   top: 0.75rem;
   z-index: 20;
@@ -35,10 +35,10 @@
 }
 
 .logo-text {
-  font-weight: 500;
+  font-weight: 667;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 1.67rem;
 }
 
 /* Desktop nav links */
@@ -47,7 +47,7 @@
   gap: 1.3rem;
   font-size: 0.85rem;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
 }
 
 .nav-links a {
@@ -111,7 +111,7 @@
 ------------------------------------------------------- */
 
 .page {
-  padding-top: 1.5rem;
+  padding-top: 0.1rem;
 }
 
 .section {
@@ -121,10 +121,25 @@
 .page-title {
   font-size: 1.6rem;
   margin-bottom: 1.5rem;
-  letter-spacing: 0.14em;
   text-transform: uppercase;
+  letter-spacing: 0.067em;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0.4rem;
+  /* text-decoration: underline;
+  text-underline-offset: 3px; */
 }
 
+.project-title-big {
+  font-size: 1.6rem;
+  /* margin-bottom: 1.5rem; */
+  text-transform: uppercase;
+  letter-spacing: 0.067em;
+  /* border-bottom: 1px solid var(--border-subtle); */
+  padding-top: 1rem;
+  padding-bottom: 0.35rem;
+  /* text-decoration: underline;
+  text-underline-offset: 3px; */
+}
 /* -------------------------------------------------------
    PROJECTS GRID (LIST PAGE)
 ------------------------------------------------------- */
@@ -254,7 +269,7 @@
 
 .project-thumb-active {
   opacity: 1;
-  outline: 1px solid #222;
+  outline: 1px groove #22222247;
 }
 
 /* Right side text */
@@ -425,4 +440,11 @@
   .about-layout {
     grid-template-columns: 1fr;
   }
+}
+
+.back-link {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
 }
